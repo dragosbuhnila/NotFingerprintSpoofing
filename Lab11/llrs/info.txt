@@ -1,0 +1,3 @@
+Logistic Regression: 	Quadratic Logistic Regression 	with l=0.0031
+GMM: 			16 clusters (i.e. 4 iterations) with Diagonal Cov. Matrices
+SVM: 			RBF kernel 			with γ=np.exp(-2), and C = 31

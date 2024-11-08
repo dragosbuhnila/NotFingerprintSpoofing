@@ -1,0 +1,54 @@
+"C:\Users\Dragos\Roba\Lectures\YM1.2\Machine Learning\b Labs\Testing\venv\Scripts\python.exe" "C:\Users\Dragos\Roba\Lectures\YM1.2\Machine Learning\b Labs\Lab3\fingerprints.py" 
+>> Analyzing PCAed features
+[[Saved ./Fingerprints_PCA\./Histogram_Fingerprints_PCA_feature-0.pdf]]
+[[Saved ./Fingerprints_PCA\./Histogram_Fingerprints_PCA_feature-1.pdf]]
+[[Saved ./Fingerprints_PCA\./Histogram_Fingerprints_PCA_feature-2.pdf]]
+[[Saved ./Fingerprints_PCA\./Histogram_Fingerprints_PCA_feature-3.pdf]]
+[[Saved ./Fingerprints_PCA\./Histogram_Fingerprints_PCA_feature-4.pdf]]
+[[Saved ./Fingerprints_PCA\./Histogram_Fingerprints_PCA_feature-5.pdf]]
+[[Saved ./Fingerprints_PCA_Scatter\Scatter_Fingerprints_PCA_Scatter_direction-0.pdf]]
+[[Saved ./Fingerprints_PCA_Scatter\Scatter_Fingerprints_PCA_Scatter_direction-1.pdf]]
+[[Saved ./Fingerprints_PCA_Scatter\Scatter_Fingerprints_PCA_Scatter_direction-2.pdf]]
+[[Saved ./Fingerprints_PCA_Scatter\Scatter_Fingerprints_PCA_Scatter_direction-3.pdf]]
+[[Saved ./Fingerprints_PCA_Scatter\Scatter_Fingerprints_PCA_Scatter_direction-4.pdf]]
+[[Saved ./Fingerprints_PCA_Scatter\Scatter_Fingerprints_PCA_Scatter_direction-5.pdf]]
+====================================
+>> Analyzing LDAed features
+[[Saved ./Fingerprints_LDA\./Histogram_Fingerprints_LDA_feature-0.pdf]]
+[[Saved ./Fingerprints_LDA_Scatter\Scatter_Fingerprints_LDA_Scatter_direction-0.pdf]]
+====================================
+>> Classifying over LDA (W matrix)
+info:::The dataset [Training] contains 4000 samples, and has 6 features and 2 classes
+info:::The dataset [Validation] contains 2000 samples, and has 6 features and 2 classes
+[[Saved ./Fingerprints_Training_LDA\./Histogram_Fingerprints_Training_LDA_feature-0.pdf]]
+[[Saved ./Fingerprints_Validation_LDA\./Histogram_Fingerprints_Validation_LDA_feature-0.pdf]]
+Threshold=-0.018534376786207174: 186 misses (over 2000 samples) detected using LDA, which is a 9.3% error rate.
+====================================
+>> Variating Threshold
+Saved Thresholds_vs_Misses variating threshold.pdf
+Threshold=-0.10553437678620708: 181 misses (over 2000 samples) detected using LDA, which is a 9.049999999999999% error rate.
+====================================
+>> Classifying by preprocessing LDA with PCA while variating m_PCA
+m=2 naive threshold: 185 misses (over 2000 samples) detected using LDA with PCA preprocessing, which is a 9.25% error rate.
+Saved m=2 variating threshold.pdf
+m=2 best threshold: 179 misses (over 2000 samples) detected using LDA with PCA preprocessing, which is a 8.95% error rate.
+-------------------------------------
+m=3 naive threshold: 190 misses (over 2000 samples) detected using LDA with PCA preprocessing, which is a 9.5% error rate.
+Saved m=3 variating threshold.pdf
+m=3 best threshold: 183 misses (over 2000 samples) detected using LDA with PCA preprocessing, which is a 9.15% error rate.
+-------------------------------------
+m=4 naive threshold: 183 misses (over 2000 samples) detected using LDA with PCA preprocessing, which is a 9.15% error rate.
+Saved m=4 variating threshold.pdf
+m=4 best threshold: 182 misses (over 2000 samples) detected using LDA with PCA preprocessing, which is a 9.1% error rate.
+-------------------------------------
+m=5 naive threshold: 187 misses (over 2000 samples) detected using LDA with PCA preprocessing, which is a 9.35% error rate.
+Saved m=5 variating threshold.pdf
+m=5 best threshold: 181 misses (over 2000 samples) detected using LDA with PCA preprocessing, which is a 9.049999999999999% error rate.
+-------------------------------------
+m=6 naive threshold: 185 misses (over 2000 samples) detected using LDA with PCA preprocessing, which is a 9.25% error rate.
+Saved m=6 variating threshold.pdf
+m=6 best threshold: 181 misses (over 2000 samples) detected using LDA with PCA preprocessing, which is a 9.049999999999999% error rate.
+-------------------------------------
+Saved m_vs_Error_Rate.pdf
+
+Process finished with exit code 0
