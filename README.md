@@ -1,5 +1,5 @@
 # NotFingerprint Spoofing
-
+Gradual implementation of different shallow machine learning algorithms and techniques, with the goal of detecting fake fingerprints (or better, a very small sets of features extracted from a fingerprints dataset). The project was conducted as an assignement for the 2024 Machine Learning and Pattern Recognition course at PoliTO.
 
 Because of the gradual implementation, done week-by-week, there isn't a specific file to refer to.  
 The most important logic of the application can be found in the `modules` folder present in each `lab` folder. They contain functions and classes that implement or are useful for the different ML models.  
